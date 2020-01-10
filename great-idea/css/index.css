@@ -152,17 +152,24 @@ h5 {
 
 /* Your code starts here! */
 
-* {
+* { margin: 0;
+    padding: 0;
     padding: 10px 30px;
     2
 }
-
+.page{
+    display: flex;
+    justify-content: center;
+    
+}
 .content {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
     max-width: 1024px;
     height: 1536px;
+    
+    
 
 
 
@@ -310,9 +317,7 @@ font-size: 90%;
 .Services,
 .Product,
 .Vision {
-    
-    
-    
+  
     flex-direction: row;
     width: 30%;
     font-size: 90%;
@@ -323,27 +328,48 @@ font-size: 90%;
     margin-left: 5px;
 }
 
-address {
-
-
-    text-align: left;
-    margin-left: 35px;
-    margin-top: 30px;
+.address {
+    display: flex;
+    flex-wrap: wrap;
     font-size: 90%;
+    margin-left: 35px;
+    margin-top: 20px;
+    
 }
+
+
 
 h1.contact {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 0px !important;
+    font-size: 100%;
+    align-self: baseline;
+    
+    
+   
 }
 
-address p {
+.address p {
     line-height: 2;
-    margin-top: -20px;
+    margin-left: -60px;
+    
 }
 
-small {
-    text-align: center;
+.small {
+    display: flex;
+   width: 100%;
     font-size: 90%;
+    justify-content: center;
+
+   
+}
+
+.copy {
+    padding: 10% 0;
+    
+    
+}
+
+footer {
+    width: 100%
 }
