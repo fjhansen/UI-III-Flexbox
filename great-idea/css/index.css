@@ -385,7 +385,7 @@ footer .copyright {
 .main-items {
 	display: flex;
 	flex-wrap: wrap;
-	background: lightgrey;
+	background: whitesmoke;
 	margin: 1%;
 	justify-content: center;
 	border: 1px solid black;
@@ -407,4 +407,18 @@ footer .copyright {
 #Serv {
 	margin: auto;
 	width: 60%;
+}
+
+#fImg {
+	display: flex;
+}
+
+#facts {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 40%;
+	margin: 2%
+	
 }
